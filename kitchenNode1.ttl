@@ -55,6 +55,7 @@
 <http://webprotege.stanford.edu/RBmv6XOn0j3PYaEiO22luws> rdf:type owl:NamedIndividual ,
                                                                   sosa:Sensor ;
                                                          sosa:observes <http://webprotege.stanford.edu/R72JOUk5DGSOzgiEO0aNVJs> ;
+                                                         rdfs:comment "Detects whether someone is moving around in the area of the kettle"^^xsd:string ;
                                                          rdfs:label "motionKitch1"^^xsd:string .
 
 
@@ -69,7 +70,7 @@
 <http://webprotege.stanford.edu/RfjjSeCYiX5VxXcpbki0L0> rdf:type owl:NamedIndividual ,
                                                                  sosa:Sensor ;
                                                         sosa:observes <http://webprotege.stanford.edu/R9CNM38RRQuEFTokXKvVlvN> ;
-                                                        rdfs:comment "Detects whether fridge is open or closed."^^xsd:string ;
+                                                        rdfs:comment "Detects whether cupboard is open or closed."^^xsd:string ;
                                                         rdfs:label "magSwitch1" .
 
 
